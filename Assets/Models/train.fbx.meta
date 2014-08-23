@@ -1,8 +1,34 @@
 fileFormatVersion: 2
-guid: 0a705064b45154fcd811cdc53a3ee57d
+guid: 7a8ed5d30b207424481688b0a3477b5f
 ModelImporter:
   serializedVersion: 16
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group
+    100004: group1
+    100006: group2
+    100008: pasted__pCube3
+    100010: pCube1
+    100012: pCube3
+    400000: //RootNode
+    400002: group
+    400004: group1
+    400006: group2
+    400008: pasted__pCube3
+    400010: pCube1
+    400012: pCube3
+    2300000: //RootNode
+    2300002: pasted__pCube3
+    2300004: pCube1
+    2300006: pCube3
+    3300000: //RootNode
+    3300002: pasted__pCube3
+    3300004: pCube1
+    3300006: pCube3
+    4300000: pCube1
+    4300002: pasted__pCube3
+    4300004: pCube3
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
