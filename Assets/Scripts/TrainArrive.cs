@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TrainAnimation : MonoBehaviour {
+public class TrainArrive : MonoBehaviour {
 
 	public GameObject train;
 
@@ -12,5 +12,6 @@ public class TrainAnimation : MonoBehaviour {
 	
 	void OnTriggerEnter(Collider other) {
 		train.animation.Play();
+		Debug.Log("Ass");
 	}
 }

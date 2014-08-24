@@ -46,7 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\TrainAnimation.cs" />
+     <Compile Include="Assets\Scripts\SceneFadeInOut.cs" />
+     <Compile Include="Assets\Scripts\TrainArrive.cs" />
+     <Compile Include="Assets\Scripts\TrainDepart.cs" />
      <None Include="Assets\Shaders\GUI3D Text Shader.shader" />
      <None Include="Assets\Shaders\LightShader.shader" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">

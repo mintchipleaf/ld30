@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shaders/GUI3D Text Shader.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/TrainArrive.cs">
     <Files>
-      <File FileName="Assets/Shaders/GUI3D Text Shader.shader" Line="10" Column="31" />
+      <File FileName="Assets/Scripts/TrainArrive.cs" Line="14" Column="24" />
+      <File FileName="Assets/Scripts/TrainDepart.cs" Line="17" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
