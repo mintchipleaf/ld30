@@ -12,8 +12,14 @@ public class TrainDepart : MonoBehaviour {
 
 	}
 	
-	void OnTriggerEnter(Collider other) {
+	IEnumerator OnTriggerEnter(Collider other) {
+		yield return new WaitForSeconds(2);
 		animationcomponent.Play("TrainDepart");
 		Debug.Log("FUUUCK");
+		//yield return new WaitForSeconds(2);
+		Debug.Log("ugh");
+	}
+
+	void Update () {
 	}
 }
