@@ -1,25 +1,33 @@
-﻿using UnityEngine;
+﻿/// <summary>
+/// Renders endgame text
+/// </summary>
+using UnityEngine;
 using System.Collections;
 
 public class EndGame : MonoBehaviour {
-	public GameObject fader;
 
-	private SceneFadeInOut scenefade;
+	public GameObject fader;			//Screen fader
 
-	private bool gui;
+	private SceneFadeInOut screenfade;	//Stores screen fader script
+	private bool gui;					//Determines if text should render
 
 
 	// Use this for initialization
 	void Start () {
-		scenefade = fader.GetComponent<SceneFadeInOut>();
+		screenfade = fader.GetComponent<SceneFadeInOut>();
 	}
 
+	/// <summary>
+	/// On passing trigger, fade screen and render text.
+	/// </summary>
 	void OnTriggerEnter(Collider other) {
-		//yield return new WaitForSeconds(2);
-		scenefade.EndScene();
+		screenfade.EndScene();
 		gui = true;
 	}
 
+	/// <summary>
+	/// If text should render, display GUI labels on screen.
+	/// </summary>
 	void OnGUI () {
 		if(gui){
 			GUI.Label(new Rect(400, 200, 1000, 200), "CONGRATULATIONS!!");
@@ -27,10 +35,5 @@ public class EndGame : MonoBehaviour {
 			GUI.Label(new Rect(400, 280, 1000, 200), "The game is now over");
 		}
 
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 }
